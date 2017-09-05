@@ -1,5 +1,7 @@
 
 {
+  "display_name": "Erlang, eunit",
+
   "visible_filenames": [
     "hiker_tests.erl",
     "hiker.erl",
@@ -7,11 +9,11 @@
     "Makefile"
   ],
 
+  "image_name": "cyberdojofoundation/erlang_eunit",
+
   "filename_extension" : ".erl",
 
   "tab_size": 2,
 
-  "display_name": "Erlang, eunit",
-
-  "image_name": "cyberdojofoundation/erlang_eunit"
+  "runner_choice": "stateless"
 }
