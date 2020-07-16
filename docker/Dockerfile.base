@@ -1,4 +1,6 @@
-FROM cyberdojofoundation/erlang:1e88913
+FROM cyberdojofoundation/erlang:0e4b809
 LABEL maintainer=jon@jaggersoft.com
+
+RUN apk add --no-cache make
 
 COPY red_amber_green.rb /usr/local/bin
