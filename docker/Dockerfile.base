@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/erlang:a21d127
+FROM ghcr.io/cyber-dojo-languages/erlang:536d536
 LABEL maintainer=jon@jaggersoft.com
 
 RUN apt-get install --yes make
